@@ -85,3 +85,11 @@ React.render(<SimpleTabSample />, document.body);
   - the style applied to `<div />` wrapping tabs
 - listLabelStyle: Object
   - the style applied to `<ul />` wrapping tab labels
+
+### Copyright
+
+Copyright (c) 2015 Rudolph-Miller (chopsticks.tk.ppfm@gmail.com)
+
+### License
+
+Licensed under the MIT License.
