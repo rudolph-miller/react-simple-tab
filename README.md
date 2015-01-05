@@ -82,6 +82,6 @@ React.render(<SimpleTabSample />, document.body);
   - activeStyle: Object
     - the style applied to tab label when the tab is active
 - style: Object
-  - the style applied to <div /> wrapping tabs
+  - the style applied to `<div />` wrapping tabs
 - listLabelStyle: Object
-  - the style applied to <ul /> wrapping tab labels
+  - the style applied to `<ul />` wrapping tab labels
