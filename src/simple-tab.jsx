@@ -10,7 +10,8 @@ var SimpleTabLabels = require("./simple-tab-labels");
 var SimpleTab = React.createClass({
     propTypes: {
         tabs: React.PropTypes.array.isRequired,
-        style: React.PropTypes.object
+        style: React.PropTypes.object,
+        labelListStyle: React.PropTypes.object
     },
 
     getInitialState: function () {
