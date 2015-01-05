@@ -20,6 +20,7 @@ var TabContent = React.createClass({
 var SimpleTabSample = React.createClass({
     render: function () {
         var style = {
+            fontSize: "20px"
         };
 
         var labelListStyle = {
@@ -38,7 +39,8 @@ var SimpleTabSample = React.createClass({
             borderColor: "#ff6c60 #ebeced transparent #ebeced",
             borderStyle: "solid",
             zIndex: 1,
-            background: "white"
+            background: "white",
+            fontWeight: "bold"
         };
         
         var tabs = [
