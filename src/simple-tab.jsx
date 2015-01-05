@@ -5,7 +5,7 @@
 var React = require("react");
 var Immutable = require("immutable");
 
-var SimpleTabLabel = require("./simple-tab-label");
+var SimpleTabLabels = require("./simple-tab-labels");
 
 var SimpleTab = React.createClass({
     propTypes: {
@@ -24,18 +24,9 @@ var SimpleTab = React.createClass({
     },
     
     render: function () {
-        var labels = this.props.tabs.map(function (tab, index) {
-            var style = Immutable.Map({
-                float: "left"
-            }).merge(tab.style).toJS();
-            
-            return (
-                <SimpleTabLabel title={tab.title} key={index} index={index} onTabChange={this.onTabChange} style={style} />
-            );
-        }.bind(this));
         return (
             <div style={this.props.style}>
-                {labels}
+                <SimpleTabLabels tabs={this.props.tabs} style={this.props.labelListStyle} onTabChange={this.onTabChange} currentTab={this.state.currentTab} />
                 <div style={{clear: "both"}} />
                 {this.props.tabs[this.state.currentTab].content}
             </div>
