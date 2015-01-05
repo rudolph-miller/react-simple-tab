@@ -27,7 +27,6 @@ var SimpleTab = React.createClass({
         return (
             <div style={this.props.style}>
                 <SimpleTabLabels tabs={this.props.tabs} style={this.props.labelListStyle} onTabChange={this.onTabChange} currentTab={this.state.currentTab} />
-                <div style={{clear: "both"}} />
                 {this.props.tabs[this.state.currentTab].content}
             </div>
         );
