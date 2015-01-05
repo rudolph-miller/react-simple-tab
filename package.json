@@ -1,0 +1,29 @@
+{
+  "author": "Rudolph-Miller",
+  "name": "react-simple-tab",
+  "version": "0.0.1",
+  "keywords": [
+    "react",
+    "react-component",
+    "simple",
+    "tab",
+    "panel"
+  ],
+  "description": "tab component in React.js",
+  "main": "index.js",
+  "scripts": {
+    "install": "jsx --extension jsx --no-cache-dir src/ js/",
+    "prepublish": "jsx --extension jsx --no-cache-dir src/ js/",
+    "watch": "jsx --extension jsx --no-cache-dir --watch src/ js/",
+    "build": "jsx --extension jsx --no-cache-dir src/ js/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Rudolph-Miller/react-simple-tab"
+  },
+  "dependencies": {
+    "jsx-loader": "^0.12.2",
+    "react": "^0.12.2"
+  },
+  "license": "MIT"
+}
