@@ -39,7 +39,7 @@ var SimpleTabLabels = React.createClass({
 
 var SimpleTabLabel = React.createClass({
     propTypes: {
-        title: React.PropTypes.string.isRequired,
+        title: React.PropTypes.any.isRequired,
         index: React.PropTypes.number.isRequired
     },
 

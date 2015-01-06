@@ -44,9 +44,6 @@ var SimpleTabSample = React.createClass({
         };
         
         var tabs = [
-            { title: "Tab 1", content: <TabContent>Content 1</TabContent>, style: tabStyle, activeStyle: activeTabStyle },
-            { title: "Tab 2", content: <TabContent>Content 2</TabContent>, style: tabStyle, activeStyle: activeTabStyle },
-            { title: "Tab 3", content: <TabContent>Content 3</TabContent>, style: tabStyle, activeStyle: activeTabStyle }
         ];
 
         return (
