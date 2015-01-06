@@ -25,10 +25,13 @@ var SimpleTab = React.createClass({
     },
     
     render: function () {
+        var tabContent;
+        if (this.props.tabs.length > 0)
+            tabContent = this.props.tabs[this.state.currentTab].content;
         return (
             <div style={this.props.style}>
                 <SimpleTabLabels tabs={this.props.tabs} style={this.props.labelListStyle} onTabChange={this.onTabChange} currentTab={this.state.currentTab} />
-                {this.props.tabs[this.state.currentTab].content}
+                {tabContent}
             </div>
         );
     }
