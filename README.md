@@ -1,5 +1,8 @@
 ## React Simple Tab
 
+### SAMPLE
+[Rudolph-Miller.github.io](http://rudolph-miller.github.io/react-simple-tab/sample.html)
+
 ### INSTALL
 
 npm install react-simple-tab
