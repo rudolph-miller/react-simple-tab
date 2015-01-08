@@ -8,7 +8,8 @@ var SimpleTab = require("../src/simple-tab");
 var TabContent = React.createClass({
     render: function () {
         var style = {
-            border: "solid 2px #ebeced"
+            border: "solid 2px #ebeced",
+            padding: "15px"
         };
         
         return (
@@ -31,7 +32,7 @@ var SimpleTabSample = React.createClass({
         };
         
         var tabStyle = {
-            padding: "5px"
+            padding: "10px"
         };
         
         var activeTabStyle = {
@@ -44,7 +45,14 @@ var SimpleTabSample = React.createClass({
         };
         
         var tabs = [
-        ];
+            { title: "Tab 1", content: (<TabContent>Content 1</TabContent>) },
+            { title: "Tab 2", content: (<TabContent>Content 2</TabContent>) },
+            { title: "Tab 3", content: (<TabContent>Content 3</TabContent>) }
+        ].map(function (tab) {
+            tab.style = tabStyle;
+            tab.activeStyle = activeTabStyle;
+            return tab;
+        });
 
         return (
             <SimpleTab tabs={tabs} style={style} labelListStyle={labelListStyle} />
