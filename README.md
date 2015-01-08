@@ -1,5 +1,7 @@
 ## React Simple Tab
 
+[![npm version](https://badge.fury.io/js/react-simple-tab.svg)](http://badge.fury.io/js/react-simple-tab)
+
 ### SAMPLE
 [Rudolph-Miller.github.io](http://rudolph-miller.github.io/react-simple-tab/sample.html)
 
