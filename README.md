@@ -5,6 +5,9 @@
 ### SAMPLE
 [Rudolph-Miller.github.io](http://rudolph-miller.github.io/react-simple-tab/sample.html)
 
+### FEATURE
+- customizable style
+
 ### INSTALL
 
 npm install react-simple-tab
