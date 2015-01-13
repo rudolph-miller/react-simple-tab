@@ -13,7 +13,7 @@
 npm install react-simple-tab
 
 ### USING
-```
+```JavaScript
 /** @jsx React.DOM */
 
 'use strict'
