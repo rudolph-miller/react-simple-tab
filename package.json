@@ -1,7 +1,7 @@
 {
   "author": "Rudolph-Miller",
   "name": "react-simple-tab",
-  "version": "0.0.11",
+  "version": "0.1.0",
   "keywords": [
     "react",
     "react-component",
@@ -22,9 +22,9 @@
   },
   "dependencies": {
     "immutable": "^3.4.1",
-    "jsx-loader": "^0.12.2",
-    "react": "^0.12.2",
-    "react-tools": "^0.12.2"
+    "jsx-loader": ">0.12.2",
+    "react": ">0.12.2",
+    "react-tools": ">0.12.2"
   },
   "license": "MIT"
 }
