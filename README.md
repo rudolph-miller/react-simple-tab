@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/react-simple-tab.svg)](http://badge.fury.io/js/react-simple-tab)
 
-<font color='red'>※It's not installable. I'll fix it. See https://github.com/Rudolph-Miller/react-sortable-table/issues/4 </font>
+<font color='red'>※It's not installable. I'll fix it.
 
 # Example
 
