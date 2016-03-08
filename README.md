@@ -1,18 +1,24 @@
-## React Simple Tab
+# React Simple Tab
 
 [![npm version](https://badge.fury.io/js/react-simple-tab.svg)](http://badge.fury.io/js/react-simple-tab)
 
-### SAMPLE
+<font color='red'>※It's not installable. I'll fix it. See https://github.com/Rudolph-Miller/react-sortable-table/issues/4 </font>
+
+# Example
+
 [Rudolph-Miller.github.io](http://rudolph-miller.github.io/react-simple-tab/sample.html)
 
-### FEATURE
+# Feature
 - customizable style
 
-### INSTALL
+# Install
 
+```sh
 npm install react-simple-tab
+```
 
-### USING
+# Usage
+
 ```JavaScript
 /** @jsx React.DOM */
 
@@ -74,12 +80,14 @@ var SimpleTabSample = React.createClass({
 React.render(<SimpleTabSample />, document.body);
 ```
 
-### PropTypes
+# PropTypes
+
 - tabs: React.PropTypes.array.isRequired
 - style: React.PropTypes.object
 - labelListStyle: React.PropTypes.object
 
-### Properties
+# Properties
+
 - tabs: Object
   - title: String
     - tab label title
@@ -94,10 +102,10 @@ React.render(<SimpleTabSample />, document.body);
 - listLabelStyle: Object
   - the style applied to `<ul />` wrapping tab labels
 
-### Copyright
+# Copyright
 
 Copyright (c) 2015 Rudolph-Miller (chopsticks.tk.ppfm@gmail.com)
 
-### License
+# License
 
 Licensed under the MIT License.
