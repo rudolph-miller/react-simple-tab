@@ -28,7 +28,7 @@ export default class SimpleTab extends Component {
         <SimpleTabLabels
           tabs={this.props.tabs}
           style={this.props.labelListStyle}
-          onTabChange={this.onTabChange}
+          onTabChange={this.onTabChange.bind(this)}
           currentTab={this.state.currentTab} />
         {tabContent}
       </div>
