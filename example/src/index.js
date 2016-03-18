@@ -33,7 +33,7 @@ const Styles = {
 };
 
 class TabContent extends Component {
-  render: function () {
+  render() {
     return (
       <div style={Styles.tabContent}>
         {this.props.children}
@@ -43,7 +43,7 @@ class TabContent extends Component {
 }
 
 class App extends Component {
-  render: function () {
+  render() {
     const tabs = [
       { title: 'Tab 1', content: (<TabContent>Content 1</TabContent>) },
       { title: 'Tab 2', content: (<TabContent>Content 2</TabContent>) },
