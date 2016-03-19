@@ -18,7 +18,7 @@ npm install react-simple-tab
 
 # Usage
 
-```js
+```es6
 window.React = require('react');
 import { render } from 'react-dom';
 import React, { Component, PropTypes } from 'react';
