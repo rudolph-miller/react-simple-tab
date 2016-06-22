@@ -4,7 +4,7 @@
 
 # Example
 
-https://gh-pages.rudolph-miller.com/react-simple-tab/
+https://rudolph-miller.github.io/react-simple-tab
 
 # Feature
 
